@@ -1,0 +1,12 @@
+#padre{
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 3rem;
+    box-shadow: 10px 7px 20px rgba(136, 136, 136, 0.42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
