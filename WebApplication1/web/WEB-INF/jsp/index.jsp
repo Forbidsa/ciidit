@@ -19,41 +19,39 @@
         <style>
         </style>
     </head>
-    <!--style="background-image: url(Images/build.jpg)"-->
-    <!--<body style="background: linear-gradient(0deg,#ffb9c6,#694ff6)">-->
-    <body style="background-image: url(Images/wallpaper.jpg); background-attachment: fixed; background-position: center;">
-        <div id="padre" style="margin-top: 10%; border-bottom-color: #10707f;">
-            <h1>Control de Instrumentos</h1>
+    <body>
+        
+        <div class="jumbotron le-color">
+            <h1 style="text-align: center">Reportes de uso</h1>
         </div>
-        <div id="padre" style="margin-bottom: 14%">
-            <form class="col-sm-12 fo">
-                <div class="space">
-                    <label class="col-sm-5 ">Nombre del usuario</label>
-                    <div class="col-sm-7">
-                        <input class="form-control" id="focusedInput" type="text">
-                    </div>
-                </div>
-                <div class="space">
-                    <label class="col-sm-5 ">Facultad (Siglas)</label>
-                    <select id="facultades" name="facultad" class="col-sm-6 selection">
-                        <option value="fime">Facultad de Ingeniería Mecánica y Eléctrica</option>
-                        <option value="fcfm">Facultad de Ciencicas Físico Matemático</option>
-                        <option value="fcq">Facultad de Ciencias Químicas</option>
-                    </select>
-                </div>
-                <div class="space">
-                    <label class="col-sm-5 ">Instrumento del Laboratorio</label>
-                    <div class="col-sm-7">
-                        <input class="form-control" id="focusedInput" type="text">
-                    </div>
-                </div>
-                <div class="space">
-                    <label class="col-sm-5 ">Accesorios del laboratorio</label>
-                    <div class="col-sm-7">
-                        <input class="form-control" id="focusedInput" type="text">
-                    </div>
-                </div>
-            </form>
+
+        <div id="padre"  class="le-color" style="margin-bottom: 14%">
+            <table class="table table-bordered table-hover col-lg-3">
+                <thead style="background-color: #F3F3F3">
+                    <tr>
+                        <th>Folio</th>
+                        <th>Instrumento</th>
+                        <th>Nombre del usuario</th>
+                    </tr>
+                </thead>
+                <tbody style="background-color: #FFFFFF">
+                    <tr>
+                        <td>A</td>
+                        <td>A</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                        <td>B</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>C</td>
+                        <td>C</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </body>
 </html>

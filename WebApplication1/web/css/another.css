@@ -1,8 +1,7 @@
 #padre{
-    background-color: white;
     margin-top: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding: 3rem;
     /*box-shadow: 10px 7px 20px rgba(136, 136, 136, 0.42);*/
     display: flex;
@@ -21,4 +20,15 @@
     padding: 6px 12px; 
     width: 100%;
     height: 34px;
+}
+
+.le-color{
+    background: linear-gradient(to right, #679868, #8EB28F, #679868);
+}
+
+tbody:before {
+    content: "-";
+    display: block;
+    line-height: 15px;
+    color: transparent;
 }
