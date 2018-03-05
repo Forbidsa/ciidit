@@ -20,35 +20,35 @@
         </style>
     </head>
     <body>
-        
+
         <div class="jumbotron le-color">
             <h1 style="text-align: center">Reportes de uso</h1>
         </div>
 
         <div id="padre"  class="le-color" style="margin-bottom: 14%">
-            <table class="table table-bordered table-hover col-lg-3">
+            <table class="table table-bordered table-hover">
                 <thead style="background-color: #F3F3F3">
-                    <tr>
-                        <th>Folio</th>
-                        <th>Instrumento</th>
-                        <th>Nombre del usuario</th>
+                    <tr class="col-sm-13">
+                        <th class="col-sm-1">Folio</th>
+                        <th class="col-sm-2">Instrumento</th>
+                        <th class="col-sm-2">Nombre del usuario</th>
                     </tr>
                 </thead>
-                <tbody style="background-color: #FFFFFF">
-                    <tr>
+                <tbody>
+                    <tr style="background-color: #FFFFFF">
                         <td>A</td>
-                        <td>A</td>
-                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
                     </tr>
-                    <tr>
-                        <td>B</td>
-                        <td>B</td>
+                    <tr style="background-color: #FFFFFF">
+                        <td>C</td>
+                        <td>A</td>
                         <td>B</td>
                     </tr>
-                    <tr>
+                    <tr style="background-color: #FFFFFF">
+                        <td>B</td>
                         <td>C</td>
-                        <td>C</td>
-                        <td>C</td>
+                        <td>A</td>
                     </tr>
                 </tbody>
             </table>
