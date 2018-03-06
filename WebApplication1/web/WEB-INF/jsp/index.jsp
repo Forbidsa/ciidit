@@ -25,28 +25,31 @@
             <h1 style="text-align: center">Reportes de uso</h1>
         </div>
 
-        <div id="padre"  class="le-color" style="margin-bottom: 14%">
-            <table class="table table-bordered table-hover">
-                <thead style="background-color: #F3F3F3">
-                    <tr class="col-sm-13">
-                        <th class="col-sm-1">Folio</th>
-                        <th class="col-sm-2">Instrumento</th>
-                        <th class="col-sm-2">Nombre del usuario</th>
+        <div id="padre"  class="le-color">
+            <table class="table table-bordered table-hover col-sm-13" style="border: 0px;">
+                <thead style="background-color: #EFEFEF; padding: 0px" class="col-sm-10">
+                    <tr>
+                        <th class="col-sm-2">Folio</th>
+                        <th class="col-sm-3">Instrumento</th>
+                        <th class="col-sm-4">Nombre del usuario</th>
                     </tr>
                 </thead>
-                <tbody>
+            </table>
+            <br>
+            <table>
+                <tbody class="col-sm-10" style="padding: 0px">
                     <tr style="background-color: #FFFFFF">
-                        <td>A</td>
+                        <td>1</td>
                         <td>B</td>
                         <td>C</td>
                     </tr>
                     <tr style="background-color: #FFFFFF">
-                        <td>C</td>
+                        <td>2</td>
                         <td>A</td>
                         <td>B</td>
                     </tr>
                     <tr style="background-color: #FFFFFF">
-                        <td>B</td>
+                        <td>3</td>
                         <td>C</td>
                         <td>A</td>
                     </tr>
