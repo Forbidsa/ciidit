@@ -26,16 +26,15 @@
         </div>
 
         <div id="padre"  class="le-color">
-            <table class="table table-bordered table-hover col-sm-13" style="border: 0px;">
+            <table class="table table-bordered table-hover" style="border: 0px;">
                 <thead style="background-color: #EFEFEF; padding: 0px" class="col-sm-10">
                     <tr>
                         <th class="col-sm-2">Folio</th>
                         <th class="col-sm-3">Instrumento</th>
-                        <th class="col-sm-4">Nombre del usuario</th>
+                        <th class="col-sm-5">Nombre del usuario</th>
                     </tr>
                 </thead>
             </table>
-            <br>
             <table>
                 <tbody class="col-sm-10" style="padding: 0px">
                     <tr style="background-color: #FFFFFF">
