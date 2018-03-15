@@ -1,8 +1,4 @@
-#padre{
-    margin-top: 2%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 20%;
+.padre{
     padding: 3rem;
     display: flex;
     justify-content: center;

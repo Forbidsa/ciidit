@@ -17,43 +17,69 @@
 
 
         <style>
+            /*            .row{
+                            background: #e8e8e8;
+                            margin-top: 50px;
+                            margin-bottom: 40px;
+                        }
+                        .columna{
+                            background: #f2f2f2;
+                            text-align: center;
+                            padding: 10px;
+                            border: 1px solid #4d5061;
+                        }*/
+            .cabeza{
+                background-color: #F3F3F3;
+            }
+            .tr{
+                background-color: white;
+            }
         </style>
     </head>
     <body>
-
         <div class="jumbotron le-color">
             <h1 style="text-align: center">Reportes de uso</h1>
         </div>
-
-        <div id="padre"  class="le-color">
-            <table class="table table-bordered table-hover" style="border: 0px;">
-                <thead style="background-color: #EFEFEF; padding: 0px" class="col-sm-10">
-                    <tr>
-                        <th class="col-sm-2">Folio</th>
-                        <th class="col-sm-3">Instrumento</th>
-                        <th class="col-sm-5">Nombre del usuario</th>
-                    </tr>
-                </thead>
-            </table>
-            <table>
-                <tbody class="col-sm-10" style="padding: 0px">
-                    <tr style="background-color: #FFFFFF">
-                        <td>1</td>
-                        <td>B</td>
-                        <td>C</td>
-                    </tr>
-                    <tr style="background-color: #FFFFFF">
-                        <td>2</td>
-                        <td>A</td>
-                        <td>B</td>
-                    </tr>
-                    <tr style="background-color: #FFFFFF">
-                        <td>3</td>
-                        <td>C</td>
-                        <td>A</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="container">
+            <div class="row">
+                <div class="padre le-color">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <div class="input-group add-on">
+                                <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <table class="table table-bordered table-hover">
+                            <thead class="cabeza">
+                            <th>Folio</th>
+                            <th>Instrumento</th>
+                            <th>Nombre</th>
+                            </thead>
+                            <tr class="tr">
+                                <td>1</td>
+                                <td>Espectrofotómetro</td>
+                                <td>Sergio Adrián Gutiérrez Rodríguez</td>
+                            </tr>
+                            <tr class="tr">
+                                <td>2</td>
+                                <td>Reómetro</td>
+                                <td>Ander Pasquel Rosales</td>
+                            </tr>
+                            <tr class="tr">
+                                <td>3</td>
+                                <td>SPIN COATER</td>
+                                <td>Luis Fernando Marquéz</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
